@@ -12,9 +12,9 @@ export default function Order() {
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </p>
-        <div className="flex gap-8 bg-[#F5F7FF] p-3 rounded-lg mb-4 md:px-6">
+        <div className="flex gap-4 bg-[#F5F7FF] p-3 rounded-lg mb-4 md:gap-6 md:px-8">
           <img src="../images/icon-music.svg" />
-          <div className="ml-[-1rem] md:ml-[-1rem]">
+          <div>
             <h2 className="font-black text-[0.875rem] md:text-[1rem]">
               Annual Plan
             </h2>
@@ -24,7 +24,7 @@ export default function Order() {
           </div>
           <a
             href="#"
-            className="font-bold text-[0.8125rem] md:text-[0.875rem] mt-3 ml-[1rem] underline text-[#382AE1] md:ml-[3rem]"
+            className="font-bold text-[0.8125rem] md:text-[0.875rem] mt-3 ml-auto underline text-[#382AE1]"
           >
             Change
           </a>
